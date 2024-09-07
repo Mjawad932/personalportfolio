@@ -75,7 +75,7 @@ const ContactUs = () => {
         variants={itemVariants}
       >
         <motion.div className="mb-6 bg-green-500 p-4 border-2 rounded border-gray-600" variants={itemVariants}>
-          <h1 className="text-3xl font-extrabold text-white">Contact Us</h1>
+          <h1 className="text-4xl font-medium text-white">Contact Us</h1>
         </motion.div>
 
         {successMessage && <p className="text-green-500 text-center mb-4">{successMessage}</p>}

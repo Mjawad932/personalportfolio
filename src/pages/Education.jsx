@@ -33,7 +33,7 @@ const Education = () => {
       >
         {/* Title */}
         <motion.div className=" bg-green-500 p-4 border-2 rounded border-gray-600 mb-6" variants={itemVariants}>
-          <h1 className="text-3xl font-extrabold text-white">Education</h1>
+          <h1 className="text-4xl font-medium text-white">Education</h1>
         </motion.div>
 
         <div className="space-y-8">
@@ -43,10 +43,9 @@ const Education = () => {
               <FaUniversity className="text-blue-500 mr-4 text-3xl" />
               <div>
                 <h2 className="text-xl font-semibold text-gray-900">Doctor of Philosophy in Industrial Engineering</h2>
-                <p className="text-gray-700">2018 - 2023</p>
+                <p className="text-gray-700"> 2023</p>
                 <p className="text-gray-700">University of Engineering and Technology (UET), Taxila</p>
                 <p className="text-gray-700">Times Higher Education ranking: 601-800</p>
-                <p className="text-gray-700">CGPA: 3.89/4</p>
                 <p className="mt-2 text-gray-700">
                   Thesis: Investigating the effect of hybrid thermal tensioning and inter layer on residual stresses and mechanical properties of dissimilar metal welding.
                 </p>
@@ -60,9 +59,8 @@ const Education = () => {
               <FaGraduationCap className="text-green-500 mr-4 text-3xl" />
               <div>
                 <h2 className="text-xl font-semibold text-gray-900">Master of Science in Industrial Engineering</h2>
-                <p className="text-gray-700">2014 - 2017</p>
+                <p className="text-gray-700">2017</p>
                 <p className="text-gray-700">University of Engineering and Technology (UET), Taxila</p>
-                <p className="text-gray-700">CGPA: 3.28/4</p>
                 <p className="mt-2 text-gray-700">
                   Thesis: Optimization of process parameters in Gas Tungsten Arc welding process by using Response Surface methodology.
                 </p>
@@ -76,9 +74,8 @@ const Education = () => {
               <FaBook className="text-red-500 mr-4 text-3xl" />
               <div>
                 <h2 className="text-xl font-semibold text-gray-900">Bachelor of Science in Industrial and Manufacturing Engineering</h2>
-                <p className="text-gray-700">2008 - 2012</p>
+                <p className="text-gray-700">2012</p>
                 <p className="text-gray-700">University of Engineering and Technology (UET), Lahore</p>
-                <p className="text-gray-700">CGPA: 3.32/4</p>
                 <p className="mt-2 text-gray-700">
                   Thesis: To investigate the effect of preheating temperature on heat affected zone, quality of weld and weld strength in TIG welding.
                 </p>

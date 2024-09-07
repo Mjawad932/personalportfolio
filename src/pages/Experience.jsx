@@ -8,7 +8,7 @@ const Experience = () => {
     <div className="min-h-screen bg-slate-400 p-6">
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg mt-16">
         <div className="mb-6 bg-green-500 p-4 border-2 rounded border-gray-600">
-          <h1 className="text-3xl font-extrabold text-white">Experience</h1>
+          <h1 className="text-4xl font-medium text-white">Experience</h1>
         </div>
         <div className="space-y-8">
           <motion.div 

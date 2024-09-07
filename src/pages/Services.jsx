@@ -33,7 +33,7 @@ const Services = () => {
       >
         {/* Title */}
         <motion.div className="mb-6 bg-green-500 p-4 border-2 rounded border-gray-600" variants={itemVariants}>
-          <h1 className="text-3xl font-extrabold text-white">Services</h1>
+          <h1 className="text-4xl font-medium text-white">Services</h1>
         </motion.div>
 
         {/* Consultation Services Section */}

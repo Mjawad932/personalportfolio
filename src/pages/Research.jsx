@@ -6,7 +6,7 @@ const Research = () => {
     <div className="min-h-screen bg-slate-400 p-6">
      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg mt-16">
         <div className="mb-6 bg-green-500 p-4 border-2 rounded border-gray-600 flex items-center justify-between">
-          <h1 className="text-3xl font-extrabold text-white">Research</h1>
+          <h1 className="text-4xl font-medium text-white">Research</h1>
           <a 
             href="https://www.researchgate.net/profile/Muhammad-Jawad-7" 
             target="_blank" 
@@ -51,6 +51,11 @@ const Research = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Journal Articles</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-4">
+          <li>
+              <p className="font-semibold">Jawad, M ., Jahanzaib, M., Ali, M. A., Sajid, M., & Hussain, S. (2024)</p>
+              <p className="italic">Evaluation of Residual Stresses and Distortion of Ti-5Al-2.5 Sn and SS 304 Gas Tungsten Arc Welded Joints under Hybrid Thermal Tensioning Technique: Transient Thermal Tensioning and Trailing Intensive Cooling. Journal of Materials Engineering and Performance, 1-13. 
+              </p>
+            </li>
             <li>
               <p className="font-semibold">Jawad, M., Jahanzaib, M., Ali, M. A., Hussain, S., Ahmad, W., & Ahmed, N. (2023).</p>
               <p className="italic">Improvement in mechanical and microstructural properties of novel TA7/Nb/Cu/SS304 composite joints by reducing intermetallic compounds.</p>
@@ -113,6 +118,7 @@ const Research = () => {
             </li>
           </ul>
         </section>
+        
 
         <section>
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Conference Articles</h2>
